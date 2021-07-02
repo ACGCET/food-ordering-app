@@ -2,7 +2,7 @@
 
 Simple restaurant food ordering app UI made with own custom build component (glenz components). [Know more](https://github.com/ACGCET/glenz-components)
 
-Live project link - []()
+Live project link - [https://glenz-foods.netlify.app/](https://glenz-foods.netlify.app/)
 
 # How to run the app in local
 
