@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.decontainer
+{
+    padding-top: 2em;
+}
+.multichannell-con {
+
+   width: 100%;
+   display: block;
+   margin: 90px auto 0;
+   text-align: center;
+   background: #eee;
+   color: #000;
+   position: relative;
+}
+.sl-pce-lft {
+   width: 50%;
+   display: inline-block;
+   max-width: 600px;
+   height: 600px;
+   
+  
+}
+.imgs
+{
+    padding-top: 4rem;
+}
+  
+
+.sl-pce-lft img {
+   width: 90%;
+   
+}
+
+.sl-pce-rit {
+   width: 42%;
+   display: inline-block;
+   vertical-align: top;
+   margin-left: 65px;
+   padding-top: 5em;
+
+}
+.slid-lineanim {
+   position: relative;
+}
+.slt-list {
+   padding: 0 25px;
+   box-sizing: border-box;
+}
+.slt-list li {
+   list-style: none;
+   text-align: left;
+   cursor: pointer;
+   opacity: .8;
+}
+.slt-list li h3 {
+   font: 25px/1 Poppins;
+   padding-top: 1em;
+}
+.slt-list li p {
+   font: 400 16px/1.6 Poppins;
+   
+}
+.active_line {
+   position: absolute;
+   height: 140px;
+   background: #fec52e;
+   display: block;
+   left: 0;
+   width: 5px;
+   top: 5px;
+   transition: all ease-in .5s;
+}
+.first
+{
+    top: 25px;
+    height: 90px;
+}
+.second
+{
+    top: 145px;
+}
+.third
+{
+    top: 320px;
+    height: 120px;
+}
+
+@media only screen 
+ and (min-device-width: 100px) 
+ and (max-device-width: 1098px) 
+  {  
+.sl-pce-lft 
+{
+   display: none;
+}
+.active_line
+{
+   display: none;
+}
+.sl-pce-rit {
+   width: 80%;
+   
+}
+.slt-list {
+   padding-top: 0em;
+   padding-bottom: 1em;
+}
+}
+
+@media only screen 
+ and (min-device-width: 920px) 
+ and (max-device-width: 1278px) 
+{  
+   .first
+{
+    top: 25px;
+    height: 100px;
+}
+.second
+{
+    top: 175px;
+}
+.third
+{
+    top: 350px;
+    height: 120px;
+}
+
+}

@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.servicehead
+{
+    text-align: center;
+    font-family: Poppins;
+}
+.Card
+{
+    padding-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Poppins;
+    grid-gap: 2em;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.service-box
+{
+    width: 300px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0 10px 20px -6px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+
+}
+.service-box:hover
+{
+    box-shadow: 0 10px 20px -6px rgb(0 0 0 / 30%);
+    background: #eee;
+}
+.service-box img    
+{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+.menuimg
+{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.menu
+{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 700;
+}
+.floating-subscribe-wrapper 
+  {
+      background: #fff;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0 2.75335px 44.0535px rgb(0 0 0 / 12%);
+      border-radius: 5px;
+      padding: 28px;
+      
+  }
+  
+  .heading
+  {
+      text-align: left;
+       font-size: 20px;
+     font-family: Poppins;
+  }
+  
+  .floating-subscribe-wrapper .floating-subscribe-close
+   {
+      position: absolute;
+      right: 24px;
+      top:34px;
+      opacity: .8;
+      cursor: pointer;
+  
+  }
+  
+.closeimg
+  {
+      vertical-align: middle;
+      border: 0;
+      width: 20px;
+      margin-top: -1.5cm;
+  }
+  
+  .floating-subscribe-wrapper
+   {
+      width: 230px;
+      z-index: 1;
+      position: fixed;
+      right: 20px;
+      top: 13rem;
+      transition: all 1s;
+     
+  }
+  
+  .floating-subscribe-wrapper .post-subscription-description
+   {
+      font-family: Poppins;
+      font-size: 12px;
+      font-weight: 400;
+      color: #001934;
+      text-align: left;
+      padding-bottom: 16px;
+      line-height: 20px;
+  }
+  
+  .floating-subscribe-wrapper .subscribeBtn 
+  {
+      border-radius: 5px;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 600;
+      width: auto;
+      transition: .5s;
+      padding: 2px 5px;
+      width: 100%;
+      height: 36px;
+      color: #fff;
+      border: none;
+      background-color: #f1bc31;
+     
+      
+  }
+  
+  .floating-subscribe-wrapper .subscribeBtn:hover 
+  {
+       cursor: pointer;
+       transform: translateX(5px);
+      
+   }
+  
+   .subscribeIcon {
+      position: fixed;
+      border-radius: 5px;
+      display: flex;
+      padding: 10px 0;
+      justify-content: space-around;
+      z-index: 1;
+      cursor: pointer;
+       width: 50px;
+       right: 0rem;
+       top:22rem;
+  }
+  .subscribeIcon  img{
+      width: 40px;
+  }
+  
+@media only screen 
+  and (min-device-width: 100px) 
+  and (max-device-width: 756px) 
+{
+    .service-box:hover
+    {
+        box-shadow: 0 10px 20px -6px rgb(0 0 0 / 30%);
+        background: rgb(255, 255, 255);
+    }
+    .floatingTransition
+    {
+        display: none;
+    }
+}

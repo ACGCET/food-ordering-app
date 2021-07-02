@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.abheading
+{
+    text-align: center;
+    font-family: Poppins; 
+    padding-top: 20px;
+}
+.content
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.imgone
+{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.aboutdetails
+{
+    width: 40%;
+    font-family: Poppins; 
+    padding-top: 2em;
+}
+@media only screen 
+  and (min-device-width: 100px) 
+  and (max-device-width: 768px) 
+{
+    .content
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutdetails
+    {
+        width: 80%;
+
+    }
+    .imgone
+    {
+        width: 80%;
+        padding-left: 40px;
+    }
+}

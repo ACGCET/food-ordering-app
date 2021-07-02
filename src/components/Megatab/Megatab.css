@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.exheading
+{
+    text-align: center;
+    font-family: Poppins;
+    padding-bottom: 5rem;
+}
+.elementor-tabs-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  
+  .elementor-tabs-wrapper ul li {
+    float: left;
+    cursor: pointer;
+  }
+  
+  
+  .tab-icon-active {
+      border-radius: 32px;
+      background: #F5F6F8;
+      width: 60px;
+      height: 60px;
+      margin: 0 auto;
+      top: 2rem;
+  }
+  .tab
+  {
+      background-color: #f1bc31;
+  }
+  .icon-img {
+      width: 40px;
+      padding-top:1rem;
+      opacity: 0.3;
+      padding-left: 15px;
+      
+  }
+  .img-color
+  {
+      opacity: 1;
+  }
+  
+ .subtitle
+  {
+      text-align: center;
+      color:#4d4d4d;
+      font-family: Poppins;
+      padding-right: 5px;
+  }
+  
+  .tit1
+  {
+      color: #000;
+      text-align: center;
+  }
+  .divclass {
+      display: flex;
+      align-items: center;
+      background: #d9d5f9;
+      background: -webkit-linear-gradient(top,#d9d5f9 0%,#fce0ea 46%,#fff6ed 80%,#fff 100%);
+  
+  }
+  div .example {
+      padding: 20px;
+      width: 50%;
+  }
+  .img-bg img {
+      padding-top: 3rem;
+      width: 100%!important; 
+  }
+  .elementor
+  {
+      border-bottom: 2px solid #f1bc31;
+  }
+  .h2new {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      color: #181818;
+     
+  }
+  .pnew {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #000;
+  
+  }
+  .example a
+  {
+      color: #f1bc31;
+      font-family: Poppins;
+  }
+  .example a:hover
+  {
+      color: #f0134d;
+      font-family: Poppins;
+  }
+  @media only screen 
+  and (min-device-width: 100px) 
+  and (max-device-width: 768px) 
+   {  
+.megacontainer
+{
+    display: none;
+}
+.exheading
+{
+    display: none;
+}
+    
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.cccontainer
+{
+    padding-top: 2em;
+    position: relative;
+    
+}
+.conheading
+{
+    text-align: center;
+    font-family: Poppins; 
+    padding-top: 20px;
+}
+input,textarea{
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	line-height: 30px;
+	font-size: 16px;
+	border-radius: 3px;
+	border:1px solid lightgray;
+	margin-bottom: 20px;
+	resize: none;
+	background: #ece8e8;
+    font-family: Poppins; 
+}
+textarea{
+	height: 150px;
+    font-family: Poppins; 
+}
+textarea:focus
+{
+    background-color: #fff;
+    border: 0.25px solid #655afc;
+    outline: none;
+}
+input[type="submit"]{
+	width: 150px;
+	border:0px;
+	background: #ff2e2e;
+	color: #fff;
+	font-size: 18px;
+	transition: all 0.3s ease-in-out;
+	margin-bottom: 0;
+	cursor: pointer;
+    font-family: Poppins; 
+}
+input[type="submit"]:hover{
+	background: #d01212;
+}
+input:focus
+{
+  background-color: #fff;
+  border: 0.25px solid #655afc;
+  outline: none;
+}
+.inputcontact
+{
+    padding-top: 20px;
+    font-family: Poppins; 
+}
+.formcon
+{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    padding-left: 10em;
+}
+.submitbtn
+{
+    padding-top: 1.5em;
+}
